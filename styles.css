@@ -5,7 +5,7 @@
   /* width: 400px; */
   /* flex-direction: row-reverse; */
   /* height: 300px; */
-  display: flex;
+  /* display: flex; */
   /* flex-wrap: wrap; */
   /*   flex-direction: column; */
 }
@@ -13,7 +13,7 @@
 /* flex-items */
 section > div {
   text-align: center;
-  width: 100px;
+  /* width: 100px; */
   /*grow shrink basis*/
   /* flex: 2 1 100px; */
 }
@@ -21,27 +21,27 @@ section > div {
 /* Individual flex items */
 div:nth-of-type(1) {
   background: red;
-  flex: 1 1 100px;
-  order: 3;
+  /* flex: 1 1 100px; */
+  /* order: 3; */
 }
 div:nth-of-type(2) {
   background: orange;
-  flex: 2 1 100px;
-  order: 4;
+  /* flex: 2 1 100px; */
+  /* order: 4; */
 }
 div:nth-of-type(3) {
   background: yellow;
-  order: 5;
+  /* order: 5; */
 }
 div:nth-of-type(4) {
   background: yellowgreen;
-  order: 1;
+  /* order: 1; */
 }
 div:nth-of-type(5) {
   background: lightblue;
-  order: 6;
+  /* order: 6; */
 }
 div:nth-of-type(6) {
   background: mediumpurple;
-  order: 2;
+  /* order: 2; */
 }
